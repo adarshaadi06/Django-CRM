@@ -41,6 +41,6 @@ Django-CRM is a customer management system built with Django that allows users t
 
 ### **Step 4: Run server**  
 
--python manage.py runserver
+- python manage.py runserver
 
 
