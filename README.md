@@ -22,22 +22,22 @@ Django-CRM is a customer management system built with Django that allows users t
 ## 📂 Installation Guide  
 
 ### **Step 1: Clone the Repository**  
--git clone https://github.com/adarshaadi06/Django-CRM.git
--cd Django-CRM
+- git clone https://github.com/adarshaadi06/Django-CRM.git
+- cd Django-CRM
 
 ### **Step 2: Create virtual environment**  
--python -m venv venv
--source venv/bin/activate   # On macOS/Linux
--venv\Scripts\activate      # On Windows
+- python -m venv venv
+- source venv/bin/activate   # On macOS/Linux
+- venv\Scripts\activate      # On Windows
 
 ### **Step 3: Install Dependencies**  
 
--pip install -r requirements.txt
+- pip install -r requirements.txt
 
 ### **Step 4: Run migrations**  
 
--python manage.py makemigrations
--python manage.py migrate
+- python manage.py makemigrations
+- python manage.py migrate
 
 ### **Step 4: Run server**  
 
