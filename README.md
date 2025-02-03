@@ -37,19 +37,31 @@ venv\Scripts\activate      # On Windows
 
 
 ## Step 4: Configure Database
-DATABASES = {
-    'default': {
+-DATABASES = {
+-    'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'your_db_name',
         'USER': 'your_db_user',
         'PASSWORD': 'your_db_password',
         'HOST': 'localhost',
         'PORT': '3306',
-    }
-}
+-   }
+-}
 
+## Run migrations:
 
 -python manage.py makemigrations
 -python manage.py migrate
+
+## Step 5: Create a Superuser
+
+- python manage.py createsuperuser
+
+## Step 6: Run the Server
+
+-python manage.py runserver
+
+
+
 
 
